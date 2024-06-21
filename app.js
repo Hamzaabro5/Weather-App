@@ -34,7 +34,7 @@ form.addEventListener(`submit` , (event) => {
     })
     .catch((error)=>{
         console.log(error);
-        alert(`Enter City Again!`)
+        alert(`Location not Found Enter City Again!`)
     })
     input.value = ``
     
