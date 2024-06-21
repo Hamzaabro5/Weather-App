@@ -8,7 +8,7 @@ form.addEventListener(`submit` , (event) => {
     event.preventDefault()
 
     axios(
-        `https://api.weatherapi.com/v1/current.json?key=982f5c58a9e742e68e5103048241306&q=${input.value}s`
+        `https://api.weatherapi.com/v1/current.json?key=982f5c58a9e742e68e5103048241306&q=${input.value}&aqi=no`
     )
     .then((res) =>{
         console.log(res.data);
